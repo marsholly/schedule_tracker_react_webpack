@@ -1,5 +1,5 @@
 const React = require('react');
-const { TextField, TimePicker, RaisedButton, FlatButton, Dialog} = require('material-ui');
+const { TextField, TimePicker, RaisedButton, FlatButton, Dialog } = require('material-ui');
 const uuid = require('uuid');
 
 const style = {

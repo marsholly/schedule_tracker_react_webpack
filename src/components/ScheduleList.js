@@ -1,5 +1,5 @@
 const React = require('react');
-const { TextField, TimePicker, RaisedButton, FlatButton, Dialog} = require('material-ui');
+const { TextField, TimePicker, RaisedButton, FlatButton, Dialog, DatePicker} = require('material-ui');
 const moment = require('moment');
 
 const style = {
@@ -37,7 +37,7 @@ const ScheduleList = React.createClass({
       id: this.state.editId
     };
     this.props.updateSchedule(editSchedule);
-    this.setState({editId: ''});
+    this.setState({ editId: ''});
     this.handleClose();
   },
 
